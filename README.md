@@ -79,27 +79,5 @@ The `calculate_fps` function dynamically computes the frames per second by track
 4.  **Quit:**
     Press `q` on the video display window to stop the processing and close all windows.
 
-## Project Structure
-
-```
-.
-├── basketball_yolo.pt        # Trained YOLOv8 model weights
-├── basketball.mp4            # Input basketball video
-├── your_script_name.py       # Main Python script
-├── outputs/                  # Directory for output files
-│   ├── motion_tracking_output.mp4 # Annotated output video
-│   └── evaluation_report.txt    # Performance report
-└── README.md                 # This README file
-```
-
-## Future Enhancements
-
-* **Advanced Action Recognition:** Implement more sophisticated machine learning models (e.g., LSTMs, Transformers) to recognize complex basketball actions like shooting, dribbling, passing, and defending.
-* **Detailed Violation Analysis:** Integrate more rules-based logic for basketball violations, such as travel, double dribble, shot clock violations, etc. This would require more precise trajectory analysis and event sequencing.
-* **Team Classification:** Differentiate between players from opposing teams.
-* **Player Statistics:** Track individual player statistics like possession time, number of passes, shots attempted, etc.
-* **3D Pose Estimation:** Incorporate 3D pose estimation to better understand player body language and interactions.
-* **UI/Dashboard:** Develop a graphical user interface (GUI) or web dashboard for easier interaction, visualization, and analysis of results.
-* **Real-time Stream Processing:** Adapt the code to process live video streams from cameras.
 
 ---
